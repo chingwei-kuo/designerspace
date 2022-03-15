@@ -413,7 +413,7 @@ header .info-company .part-box .company-box {
 }
 
 .main01 .cont p::before {
-  content: url("/img/comma-icon.svg");
+  content: url("https://chingwei-kuo.github.io/designerspace/img/comma-icon.svg");
   position: absolute;
   width: 51px;
   height: 38px;
@@ -422,7 +422,7 @@ header .info-company .part-box .company-box {
 }
 
 .main01 .cont p::after{
-  content: url("/img/comma-icon.svg");
+  content: url("https://chingwei-kuo.github.io/designerspace/img/comma-icon.svg");
   position: absolute;
   width: 51px;
   height: 38px;
@@ -465,7 +465,7 @@ header .info-company .part-box .company-box {
   position: absolute;
   top: -120px;
   right: 0;
-  content: url("/img/backtitle-circle.svg");
+  content: url("https://chingwei-kuo.github.io/designerspace/img/backtitle-circle.svg");
   opacity: 0.6;
 }
 
@@ -491,7 +491,7 @@ header .info-company .part-box .company-box {
 
 .main02 .intro-cont .cont-video .video-box .video::before {
   position: absolute;
-  content: url("/img/play-btn.png");
+  content: url("https://chingwei-kuo.github.io/designerspace/img/play-btn.png");
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -599,7 +599,7 @@ header .info-company .part-box .company-box {
 } 
 
 .main03 .introduce-cont .txt-img .txt-box::before {
-  content: url("/img/frame-triangle-icon.svg");
+  content: url("https://chingwei-kuo.github.io/designerspace/img/frame-triangle-icon.svg");
   position: absolute;
   top: 50%;
   right: -50px;
@@ -1261,7 +1261,7 @@ header .info-company .part-box .company-box {
 }
 .main05 .swiper-cont .suggestion-Swiper .swiper-slide 
 .part-cont .txt-right .cont .part .time::after {
-  content: url("/img/g-aoorw-Triangle.svg");
+  content: url("https://chingwei-kuo.github.io/designerspace/img/g-aoorw-Triangle.svg");
   position: absolute;
   right: 20px;
   top: 53%;
