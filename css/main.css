@@ -145,7 +145,12 @@ img {
   max-width: 100%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&display=swap');
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+   font-family: 'quicksand';
+   src: url('https://chingwei-kuo.github.io/designerspace/img/notosanstc.svg') format('svg');
+ }
+}
 
 html, body {
   font-family: 'Roboto', Arial, Helvetica, 'Noto Sans TC', "Microsoft JhengHei", PingFang, sans-serif;
