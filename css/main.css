@@ -160,7 +160,7 @@ header {
   width: 100%;
   height: 100vh;
   padding: 0 24px;
-  background-image: url("/img/bn-background.png");
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/bn-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -385,7 +385,7 @@ header .info-company .part-box .company-box {
                 /* ------ 鼻腔說明 ------ */
 
 .main.main01 {
-  background-image: url("/img/line-back.svg");
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/line-back.svg");
   background-repeat: no-repeat;
   background-position-y: 180px;
 }
@@ -980,7 +980,7 @@ header .info-company .part-box .company-box {
 .main05 {
   background-color: #1F1E57;
   position: relative;
-  background-image: url("/img/bottom-circle-back.png");
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/bottom-circle-back.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -1421,7 +1421,7 @@ header .info-company .part-box .company-box {
 footer {
   background-color: #1F1E57;
   padding: 0 24px 60px;
-  background-image: url("/img/background-bottom.png");
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/background-bottom.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -2141,18 +2141,18 @@ footer .company-cont .part p {
   }
 
   .main05 .swiper-cont .suggestion-Swiper .swiper-slide .part-cont.young .txt-right {
-    background-image: url("/img/people-kd.svg");
+    background-image: url("https://chingwei-kuo.github.io/designerspace/img/people-kd.svg");
     background-position: center top 30%;
     padding-bottom: 90%;
     background-size: 80%;
   }
 
   .main05 .swiper-cont .suggestion-Swiper .swiper-slide .part-cont.aldult .txt-right {
-    background-image: url("/img/people-ad.svg");
+    background-image: url("https://chingwei-kuo.github.io/designerspace/img/people-ad.svg");
     background-size: 80%;
   }
   .main05 .swiper-cont .suggestion-Swiper .swiper-slide .part-cont.old .txt-right {
-    background-image: url("/img/people-ol.svg");
+    background-image: url("https://chingwei-kuo.github.io/designerspace/img/people-ol.svg");
     background-size: 85%;
   }
 
@@ -2246,7 +2246,7 @@ footer .company-cont .part p {
   .main01 .cont p::after,
   .main01 .cont p::before {
     content: "";
-    background-image: url("/img/comma-icon.svg");
+    background-image: url("https://chingwei-kuo.github.io/designerspace/img/comma-icon.svg");
     background-size: contain;
     background-repeat: no-repeat;
     width: 30px;
