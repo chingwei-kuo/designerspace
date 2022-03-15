@@ -152,6 +152,7 @@ html, body {
   position: relative;
   letter-spacing: 1px;
   scroll-behavior: smooth;
+  -webkit-scroll-behavior: smooth;
   min-width: 375px;
 
 }
