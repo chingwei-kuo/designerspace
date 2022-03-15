@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="283px" height="284px" viewBox="0 0 283 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>Oval Copy 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFA7FD" offset="0%"></stop>
+            <stop stop-color="#A966F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.158691406">
+        <g id="Desktop-HD-Copy" transform="translate(-1071.000000, -1588.000000)" fill="url(#linearGradient-1)">
+            <ellipse id="Oval-Copy-14" style="mix-blend-mode: lighten;" cx="1212.5" cy="1730" rx="141.5" ry="142"></ellipse>
+        </g>
+    </g>
+</svg>
