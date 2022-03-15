@@ -219,7 +219,7 @@ header .info-cont .txt-box span {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent; 
-  font-weight: 900;
+  font-weight: 700;
 }
 
 header .info-company {
@@ -377,7 +377,7 @@ header .info-company .part-box .company-box {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent; 
-  font-weight: 900;
+  font-weight: 700;
   line-height: 1.5;
   text-align: center;
 }
