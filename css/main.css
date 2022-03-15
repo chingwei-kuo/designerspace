@@ -145,10 +145,15 @@ img {
   max-width: 100%;
 }
 
-
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+   font-family: 'quicksand';
+   src: url('https://chingwei-kuo.github.io/designerspace/img/notosanstc.svg') format('svg');
+ }
+}
 
 html, body {
-  font-family: sans-serif;
+  font-family: 'Noto Sans TC', 'Roboto', Arial, Helvetica, "Microsoft JhengHei", PingFang, sans-serif;
   background-color: #37357B;
   color: white;
   position: relative;
