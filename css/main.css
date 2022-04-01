@@ -268,7 +268,7 @@ header .cont img {
 
 
 
-/* 標題統一設定-------------------------- */
+/* 大標題統一設定-------------------------- */
 .main-title {
   display: flex;
   align-items: center;
@@ -294,7 +294,7 @@ header .cont img {
 .about {
   max-width: 1232px;
   margin: 0 auto;
-  padding: 100px 16px 0;
+  padding: 100px 16px 100px;
 }
 
 .about .cont .intro {
@@ -344,7 +344,115 @@ header .cont img {
   font-size: 32px;
   font-family: 'Archivo', sans-serif;
   font-weight: 700;
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/txt-outline.svg");
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  width: 220px;
+  height: 90px;
+  line-height: 60px;
+  padding-left: 20px;
+  display: inline-block;
+  margin-top: 60px;
 }
+
+
+.about .cont .experience  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about .cont .experience .part {
+  width: 30%;
+}
+
+.about .cont .experience .part .time {
+  color: #BC0909;
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+}
+
+.about .cont .experience .part .time span {
+  font-size: 24px;
+}
+
+.about .cont .experience .part .job {
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 14px;
+}
+
+.about .cont .experience .part .job p {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about .cont .experience .part .job .line {
+  width: 2px;
+  height: 15px;
+  background-color: #BC0909;
+  margin: 0 12px;
+  transform: rotate(30deg);
+}
+
+.about .cont .experience .part ul li {
+  line-height: 2;
+}
+
+
+
+
+/* 文宣物設計--------------------------- */
+.posm {
+  position: relative;
+  padding-top: 100px;
+  max-width: 1600px;
+}
+
+.posm .main-title {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);  
+  -webkit-transform: translate(-50%);
+}
+
+.posm .title {
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/title-outline-right.svg");
+  height: 320px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  /* align-items: center; */
+  background-position: right center;
+}
+
+.posm .title h4 {
+  font-size: 30px;
+  font-weight: 700;
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/txt-outline-w.svg");
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 78px;
+  color: white;
+  text-align: center;
+  line-height: 64px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
