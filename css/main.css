@@ -148,10 +148,214 @@ img {
 
 
 html, body {
-  font-family: 'Noto Sans TC', 'Roboto', Arial, Helvetica, "Microsoft JhengHei", PingFang, sans-serif;
+  font-family: 'Noto Sans TC', 'Archivo', Arial, Helvetica, "Microsoft JhengHei", PingFang, sans-serif;
   scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
+  color: #505050;
 }
+
+.menu {
+  position: fixed;
+  background-color: #BC0909;
+  width: 100%;
+  z-index: 999;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+.menu ul li a {
+  display: block;
+  padding: 20px 30px;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+
+.menu ul li a:hover {
+  color: #BC0909;
+  background-color: white;
+}
+
+
+
+/* header--------------------------------------------- */
+
+header {
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/top-back.svg");
+  background-position: center bottom;
+  position: relative;
+  height: 680px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+
+header .circle01 {
+  position: absolute;
+  max-width: 100px;
+  left: 20%;
+  top: 20%;
+}
+
+
+header .circle02 {
+  position: absolute;
+  width: 180px;
+  left: 5%;
+  bottom: 30%;
+  opacity: 0.7;
+}
+
+
+header .circle03 {
+  position: absolute;
+  width: 140px;
+  right: 5%;
+  top: 20%;
+  opacity: 0.6;
+}
+
+
+header .circle04 {
+  position: absolute;
+  width: 100px;
+  right: 30%;
+  bottom: 20%;
+}
+
+
+header .cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header .cont h2 {
+  font-size: 54px;
+  font-family: 'Archivo', sans-serif;
+  color: white;
+  font-weight:900;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+header .cont img {
+  padding-top: 20px;
+  position: relative;
+
+    /* animation 參數設定 */
+    animation-name: MoveToRight;    /*動畫名稱，需與 keyframe 名稱對應*/
+    animation-duration: 1s;    /*動畫持續時間，單位為秒*/
+    /* animation-delay: 2s;    動畫延遲開始時間 */
+    animation-iteration-count:  infinite;    /*動畫次數，infinite 為無限次*/  
+    animation-timing-function:  ease-in-out;
+    animation-direction:alternate
+
+}
+
+@keyframes MoveToRight {
+  from { top: 0; }
+  to { top: 50px; }
+}
+
+
+
+/* 標題統一設定-------------------------- */
+.main-title {
+  display: flex;
+  align-items: center;
+}
+
+.main-title .arrow-left {
+  width: 120px;
+  margin-right: 12px;
+}
+
+.main-title h3 {
+  font-weight: 700;
+  color: #322F2F;
+  font-size: 48px;
+}
+
+
+
+
+
+/* 關於我-------------------------------- */
+
+.about {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 100px 16px 0;
+}
+
+.about .cont .intro {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.about .cont .intro .mephoto {
+  width: 32%;
+  object-fit: contain;
+}
+
+.about .cont .intro .txt {
+  width: 60%;
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/circle-three-outline.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 15%;
+  padding-bottom: 2%;
+  margin-left: -60px;
+}
+
+.about .cont .intro .txt p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.about .cont .intro .txt .tool-img {
+  display: flex;
+  margin-top: 8px;
+}
+
+.about .cont .intro .txt .tool-img img {
+  margin-right: 3%;
+  width: 10%;
+}
+
+
+.about .cont > .title {
+  font-size: 32px;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
