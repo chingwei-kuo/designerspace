@@ -407,26 +407,27 @@ header .cont img {
 /* 文宣物設計--------------------------- */
 .posm {
   position: relative;
-  padding-top: 100px;
-  max-width: 1600px;
+  padding-top: 260px;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .posm .main-title {
   position: absolute;
+  top: 100px;
   left: 50%;
   transform: translate(-50%);  
   -webkit-transform: translate(-50%);
 }
 
 .posm .title {
-  background-image: url("https://chingwei-kuo.github.io/designerspace/img/title-outline-right.svg");
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/title-outline-left-new.svg");
   height: 320px;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  padding-top: 80px;
-  /* align-items: center; */
-  background-position: right center;
+  padding-top: 90px;
+  background-position: right -600px center;
 }
 
 .posm .title h4 {
@@ -439,8 +440,442 @@ header .cont img {
   color: white;
   text-align: center;
   line-height: 64px;
-
 }
+
+
+
+/* 統一小標樣式設定 */
+.caption {
+  display: inline-block;
+  margin: 40px 0 100px;
+}
+
+.caption h5{
+  font-size: 22px;
+  color: #BC0909;
+  font-weight: 700;
+  padding: 16px 24px 8px ;
+  position: relative;
+  display: inline-block;
+}
+
+.caption h5::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #BC0909;
+}
+
+
+
+/* 統一內文說明文字樣式設定 */
+h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #505050;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+
+
+
+/* 視覺海報---------------------- */
+.posm .poster-entxt {
+  position: absolute;
+  top: 0;
+  left: 2%;
+  width: 60%;
+}
+
+.posm .poster {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.posm .poster .cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.posm .poster .cont > img {
+  width: 24%;
+  transition: all 0.2s;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.posm .poster .cont > img:hover {
+  transform: scale(1.2, 1.2);
+  box-shadow: 0 0 20px #505050;
+}
+
+.posm .poster .cont .poster-another {
+  width: 100%;
+  display: flex;
+  margin-bottom: 200px;
+}
+
+.posm .poster .cont .poster-another img {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.posm .poster .cont .poster-another .caption.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.posm .poster .cont .poster-another .caption.left h5 {
+  padding-left: 0;
+}
+
+
+
+/* 手冊編排------------------ */
+.handbook {
+  position: relative;
+}
+
+.handbook > img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  padding: 0 16px;
+  margin-bottom: 80px;
+}
+
+
+.handbook .caption {
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+}
+
+.handbook .part {
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.handbook .part .intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.handbook .part .intro.reverse {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.handbook .part .intro.reverse .txt {
+  margin-left: 36px;
+}
+
+.handbook .part .intro .txt {
+  width: 50%;
+}
+
+.handbook .part .intro .txt p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.handbook .part .intro img {
+  width: 40%;
+}
+
+.handbook .part .img-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.handbook .part .img-box img {
+  width: 49%;
+}
+
+.handbook .grayline {
+  width: 100%;
+  height: 7px;
+  background-color: #DADADA;
+  margin: 100px 0;
+}
+
+
+/* 摺頁DM */
+.dm-cont .txt-img {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.dm-cont .txt-img .caption.left {
+  width: 20%;
+}
+
+.dm-cont .txt-img .caption.left h5 {
+  padding-left: 0;
+}
+
+.dm-cont .txt-img img {
+  width: 70%;
+}
+
+.dm-cont .img-box {
+  max-width: 1400px;
+  margin: 24px auto 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dm-cont .img-box .imgleft {
+  width: 52%;
+}
+
+.dm-cont .img-box .imgright {
+  width: 46%;
+}
+
+
+
+/* 活動視覺設計 */
+.activity {
+  padding-top: 100px;
+}
+
+.activity .title {
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/title-outline-right-new.svg");
+  height: 320px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  background-position: left -400px center;
+}
+
+.activity .title h4 {
+  font-size: 30px;
+  font-weight: 700;
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/txt-outline-w.svg");
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 78px;
+  color: white;
+  text-align: center;
+  line-height: 64px;
+}
+
+
+.activity .cont {
+   max-width: 1232px;
+   margin: 0 auto;
+   padding: 0 16px;
+}
+
+
+.activity .cont .caption {
+  margin-bottom: 0;
+  margin-top: 100px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+
+.activity .cont .caption h5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.activity .cont .master-vision {
+  width: 100%;
+}
+
+.activity .cont .intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.activity .cont .intro img {
+  width: 54%;
+}
+
+
+.activity .cont .intro .txt {
+  width: 40%;
+  position: relative;
+}
+
+.activity .cont .intro .txt p {
+  line-height: 1.7;
+}
+
+
+.activity .cont .intro .txt img {
+  position: absolute;
+  top: -14%;
+  left: 4%;
+}
+
+.activity .cont .flag {
+  width: 100%;
+}
+
+
+.activity .cont .img-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.activity .cont .img-box .card {
+  width: 56%;
+}
+
+.activity .cont .img-box .ticket {
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.activity .cont .img-box .ticket img {
+  width: 48%;
+}
+
+
+/* 品牌視覺設計 */
+.brand {
+  padding-top: 100px;
+}
+
+.brand .title {
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/title-outline-left-new.svg");
+  height: 320px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  background-position: right -600px center;
+  margin-bottom: -150px;
+  z-index: 999;
+  position: relative;
+}
+
+.brand .title h4 {
+  font-size: 30px;
+  font-weight: 700;
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/txt-outline-w.svg");
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 78px;
+  color: white;
+  text-align: center;
+  line-height: 64px;
+}
+
+.brand .part {
+  background-color: #143756;
+  padding: 250px 16px 0;
+}
+
+.brand .part .intro {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand .part .intro .txt {
+  width: 40%;
+  position: relative;
+}
+
+.brand .part .intro .txt .healthy {
+  position: absolute;
+  top: -20%;
+  right: 0;
+  width: 70%;
+}
+
+.brand .part .intro .txt h6 {
+  color: white;
+}
+
+.brand .part .intro .txt p {
+  line-height: 1.7;
+  margin-bottom: 16px;
+  color: white;
+}
+
+.brand .part .intro .card {
+  width: 58%;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
