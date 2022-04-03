@@ -181,6 +181,11 @@ html, body {
   background-color: white;
 }
 
+.menu ul li a.active {
+  color: #BC0909;
+  background-color: white;
+}
+
 
 
 /* header--------------------------------------------- */
@@ -607,6 +612,15 @@ h6 {
 
 .handbook .part .img-box img {
   width: 49%;
+  transition: all 0.3s;
+  /* cursor: pointer; */
+}
+
+.handbook .part .img-box img:hover {
+  transform: scale(1.2 ,1.2);
+  -webkit-transform: scale(1.2 ,1.2);
+  border: 6px solid white;
+  box-shadow: 0 0 20px #505050;
 }
 
 .handbook .grayline {
@@ -803,7 +817,7 @@ h6 {
 
 .brand .part .intro {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -832,8 +846,195 @@ h6 {
 }
 
 .brand .part .intro .card {
-  width: 58%;
+  width: 52%;
 }
+
+.brand .part .banner {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.brand .part .img-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand .part .img-box img {
+  width: 48%;
+}
+
+.brand .part .package {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand .part .package h6 {
+  color: white;
+  margin-top: -100px;
+}
+
+.brand .part .package p {
+  color: white;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 680px;
+}
+
+.brand .part .package .cont-1 {
+  margin-top: 100px;
+  margin-bottom: 24px;
+}
+
+
+.brand .part .package .img-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 100px;
+}
+
+.brand .part .package .img-box img {
+  width: 49%;
+}
+
+
+/* 妹朵莉----------- */
+.brand .part.another {
+  background-color: #A04658;
+}
+
+.brand .part.another .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand .part.another .item .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.brand .part.another .item .intro .txt {
+  width: 100%;
+  position: relative;
+}
+
+
+.brand .part.another .item .intro .txt .beauty {
+  position: absolute;
+  top: -15%;
+  right: 0;
+  width: 60%;
+}
+
+
+.brand .part.another .item .intro .txt p {
+  margin-bottom: 48px;
+}
+
+
+.brand .part.another .item .metori-edm {
+  width: 40%;
+}
+
+
+
+
+
+/* uidesign-------------------- */ 
+.uidesign {
+  padding-top: 200px;
+}
+
+.uidesign .title {
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/title-outline-right-new.svg");
+  height: 320px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  padding-top: 90px;
+  background-position: left -400px center;
+}
+
+.uidesign .title h4 {
+  font-size: 30px;
+  font-weight: 700;
+  background-image: url("https://chingwei-kuo.github.io/designerspace/img/txt-outline-w.svg");
+  background-repeat: no-repeat;
+  width: 220px;
+  height: 78px;
+  color: white;
+  text-align: center;
+  line-height: 64px;
+}
+
+
+.uidesign .part {
+  display: flex;
+  align-items: center;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 100px 16px 0;
+}
+
+.uidesign .part .img-box {
+  width: 60%;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+}
+
+.uidesign .part .img-box img {
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+
+.uidesign .part .img-box img:hover {
+  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+}
+
+.uidesign .part .txt {
+  width: 36%;
+  margin-left: 2%;
+}
+
+.uidesign .part .txt .caption.left {
+  margin-bottom: 32px;
+}
+
+.uidesign .part .txt .caption.left h5 {
+  padding-left: 0;
+}
+
+.uidesign .part .txt p {
+  line-height: 1.7;
+  margin-bottom: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
