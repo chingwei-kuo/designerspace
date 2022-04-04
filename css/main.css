@@ -200,6 +200,8 @@ html, body {
 header {
   background-image: url("https://chingwei-kuo.github.io/designerspace/img/top-back.svg");
   background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   height: 680px;
   display: flex;
@@ -962,6 +964,13 @@ h6 {
 /* uidesign-------------------- */ 
 .uidesign {
   padding-top: 200px;
+  position: relative;
+}
+
+.uidesign .uientxt {
+  position: absolute;
+  top: 15%;
+  right: 0;
 }
 
 .uidesign .title {
@@ -1031,6 +1040,81 @@ h6 {
   margin-bottom: 32px;
 }
 
+
+.uidesign .part .txt a {
+  display: flex;
+  align-items: center;
+}
+
+.uidesign .part .txt a .arrow {
+  width: 12%;
+  margin-left: 12px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.uidesign .part .txt a:hover .arrow{
+  margin-left: 30px;
+}
+
+
+.uidesign .part .txt a span {
+  font-size: 20px;
+  color: #505050;
+  font-weight: 500;
+}
+
+.uidesign .part .txt a:hover span {
+  color: #BC0909;
+}
+
+.uidesign .part.another {
+  flex-direction: row-reverse;
+}
+
+.uidesign .part.another .txt {
+  margin-right: 2%;
+  margin-left: 0;
+}
+
+.entxt-design {
+  margin-top: 100px;
+}
+
+
+/* 表尾------------------------ */
+footer {
+  width: 100%;
+  background-color: #322F2F;
+  padding: 32px 16px;
+  position: relative;
+}
+
+footer a {
+  position: absolute;
+  top: -40%;
+  right: 4%;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #BC0909;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a img {
+  width: 50%;
+  transform: rotate(180deg);
+}
+
+footer p {
+  text-align: center;
+  color: white; 
+  font-size: 20px;
+  font-family: 'Archivo', sans-serif;
+  letter-spacing: 1px;
+}
 
 
 
