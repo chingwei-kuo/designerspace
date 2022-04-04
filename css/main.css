@@ -530,6 +530,7 @@ h6 {
 
 .posm .poster .cont > img:hover {
   transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2,1.2);
   box-shadow: 0 0 20px #505050;
 }
 
@@ -876,7 +877,6 @@ h6 {
 }
 
 .brand .part .package {
-  max-width: 1200px;
   margin: 0 auto;
   padding-top: 60px;
   display: flex;
@@ -969,7 +969,7 @@ h6 {
 
 .uidesign .uientxt {
   position: absolute;
-  top: 15%;
+  top: 30%;
   right: 0;
 }
 
@@ -1114,6 +1114,411 @@ footer p {
   font-size: 20px;
   font-family: 'Archivo', sans-serif;
   letter-spacing: 1px;
+}
+
+
+
+
+
+
+/* RWD------------------------ */
+@media screen and (max-width:1200px) {
+  .about {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 52px;
+  }
+
+  .about .cont .experience {
+    flex-wrap: wrap;
+  }
+  
+  .about .cont .experience .part {
+    width: 48%;
+    margin-bottom: 48px;
+  }
+
+  .posm {
+    padding-top: 200px;
+  }
+
+  .posm .main-title {
+    top: 50px;
+  }
+
+  .posm .title {
+    background-position: right -1000px center;
+  }
+
+  .activity .title {
+    background-position: left -840px center;
+  }
+
+  .activity .cont .img-box .ticket {
+    margin-right: 16px;
+  }
+
+  .brand .title {
+    background-position: right -1000px center;
+  }
+
+  .uidesign .uientxt {
+    width: 8%;
+    top: 40%;
+  }
+
+  .uidesign .title {
+    background-position: left -840px center;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .about .cont > .title {
+    margin-top: 0;
+  }
+
+  .posm .poster .cont > img {
+    width: 32%;
+  }
+
+  .posm .poster .cont .poster-another img {
+    margin-right: 12px;
+  }
+
+  .brand .part {
+    padding-top: 200px;
+  }
+
+  .brand .part.another .package {
+    padding-top: 20px;
+  }
+
+  .uidesign .part .txt .caption.left {
+    margin: 0 0 24px;
+  }
+
+  .entxt-design {
+    width: 70%;
+  }
+  
+}
+
+@media screen and (max-width:767px) {
+  .menu {
+    bottom: 0;
+  }
+
+  .menu ul {
+    justify-content: space-between;
+  }
+
+  .menu ul li a {
+    padding: 20px 12px;
+  }
+
+  header {
+    height: 500px;
+  }
+
+  header .cont h2 {
+    font-size: 36px;
+  }
+
+  .main-title h3 {
+    font-size: 36px;
+  }
+
+  .main-title .arrow-left {
+    width: 80px;
+  }
+
+  .about .cont .intro {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 48px;
+  }
+
+  .about .cont .intro .mephoto {
+    width: 100%;
+  }
+
+  .about .cont .intro .txt {
+    background-image: none;
+    margin-left: 0;
+    padding-left: 0;
+    justify-content: flex-start;
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+
+  }
+
+  .about .cont .intro .txt .tool-img img {
+    width: 10%;
+  }
+
+  .about .cont .experience .part {
+    width: 100%;
+  }
+
+  .posm {
+    padding-top: 150px;
+  }
+
+  .posm .title h4 {
+    font-size: 24px;
+  }
+  .caption {
+    margin-bottom: 60px;
+  }
+
+  .posm .poster {
+    margin-top: -30px;
+  }
+
+  .posm .poster-entxt {
+    top: 30px;
+  }
+
+  .posm .poster .cont > img {
+    width: 100%;
+  }
+
+  
+.posm .poster .cont > img:hover {
+  transform: scale(1.0, 1.0);
+  -webkit-transform: scale(1.0,1.0);
+  box-shadow: none;
+}
+
+  .posm .poster .cont .poster-another {
+    flex-wrap: wrap-reverse;
+    justify-content: center;   
+    margin-bottom: 100px;
+  }
+
+  .posm .poster .cont .poster-another .caption.left h5 {
+    padding: 16px 24px 8px;
+  }
+
+  .posm .poster .cont .poster-another img {
+    width: 100%;
+    margin: 16px 0 0 0;
+  }
+
+  .handbook .caption {
+    top: -1%;
+  }
+
+  .handbook .part .intro {
+    flex-wrap: wrap;
+  }
+
+  .handbook .part .intro .txt {
+    width: 100%;
+  }
+
+  .handbook .part .intro img {
+    width: 100%;
+  }
+
+  .handbook .part .img-box {
+    flex-wrap: wrap;
+  }
+
+  .handbook .part .img-box img {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .handbook .part .img-box img:hover {
+    transform: scale(1.0 ,1.0);
+    -webkit-transform: scale(1.0 ,1.0);
+    border: none;
+    box-shadow: none;
+  }
+
+  .dm-cont .txt-img {
+    flex-wrap: wrap;
+    padding: 0 16px;
+  }
+
+  .dm-cont .txt-img img {
+    width: 100%;
+  }
+
+  .dm-cont .img-box {
+    flex-wrap: wrap;
+    padding: 0 16px;
+  }
+
+  .dm-cont .img-box .imgright,
+  .dm-cont .img-box .imgleft {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .dm-cont .txt-img .caption.left {
+    width: 100%;
+    text-align: center;
+  }
+
+  .dm-cont .txt-img .caption.left h5 {
+    padding: 16px 24px 8px;
+  }
+
+  .activity {
+    padding-top: 60px;
+  }
+
+  .activity .title h4 {
+    font-size: 24px;
+  }
+
+  .activity .cont .intro {
+    flex-wrap: wrap-reverse;
+  }
+
+  .activity .cont .intro img {
+    width: 100%;
+  }
+
+  .activity .cont .intro .txt {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .activity .cont .intro .txt img {
+    width: 40%;
+  }
+
+  .activity .cont .img-box {
+    flex-wrap: wrap;
+  }
+
+  .activity .cont .img-box .card {
+    width: 100%;
+  }
+
+  .activity .cont .img-box .ticket {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .brand .title h4 {
+    font-size: 24px;
+  }
+
+  .brand .title {
+    background-position: right -800px center;
+  }
+
+  .brand .part .intro {
+    flex-wrap: wrap;
+  }
+
+  .brand .part .intro .txt {
+    width: 100%;
+    padding-bottom: 12px;
+  }
+
+  .brand .part .intro .card {
+    width: 100%;
+  }
+
+  .brand .part .img-box {
+    flex-wrap: wrap;
+  }
+
+  .brand .part .img-box img {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+  .brand .part.another {
+    padding-top: 100px;
+  }
+
+  .brand .part.another .item {
+    flex-wrap: wrap;
+  }
+
+  .brand .part.another .item .intro {
+    width: 100%;
+  }
+
+  .brand .part.another .item .metori-edm {
+    width: 100%;
+  }
+
+  .brand .part .package .img-box {
+    flex-wrap: wrap;
+  }
+
+  .brand .part .package .img-box img {
+    width: 100%;
+  }
+  
+  .uidesign {
+    padding-top: 100px;
+  }
+
+  .uidesign .title h4 {
+    font-size: 24px;
+  }
+
+  .uidesign .part {
+    padding-top: 60px;
+    flex-wrap: wrap;
+  }
+
+  .uidesign .part .img-box {
+    width: 100%;
+  }
+
+  .uidesign .part .txt {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 16px;
+  }
+
+  .uidesign .uientxt {
+    top: 50%;
+    right: 0;
+  }
+
+  .entxt-design {
+    margin-top: 60px;
+  }
+
+
+
+  footer {
+    margin-bottom: 64px;
+  }
+
+  footer a {
+    width: 44px;
+    height: 44px;
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width:480px) {
+  .menu ul li a {
+    font-size: 12px;
+  }
+
+  footer {
+    margin-bottom: 57px;
+  }
+  
 }
 
 
