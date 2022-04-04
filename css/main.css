@@ -1323,6 +1323,11 @@ footer p {
     width: 100%;
   }
 
+  .handbook .part .intro.reverse .txt {
+    margin-left: 0;
+  }
+
+
   .handbook .part .intro img {
     width: 100%;
   }
