@@ -161,6 +161,10 @@ html, body {
   z-index: 2;
 }
 
+#whiteElement {
+  transition: all 0.3s ease-in-out;
+}
+
 .menu ul {
   display: flex;
   justify-content: center;
