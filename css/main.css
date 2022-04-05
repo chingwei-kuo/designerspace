@@ -152,6 +152,8 @@ html, body {
   scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
   color: #505050;
+  overflow:scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 .menu {
@@ -308,7 +310,7 @@ header .cont img {
 .about {
   max-width: 1232px;
   margin: 0 auto;
-  padding: 100px 16px 100px;
+  padding: 100px 16px 60px;
 }
 
 .about .cont .intro {
@@ -721,6 +723,7 @@ h6 {
   position: relative;
   left: 50%;
   transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
 }
 
 
@@ -729,10 +732,12 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50% , -50%);
+  -webkit-transform: translate(-50% , -50%);
 }
 
 .activity .cont .master-vision {
   width: 100%;
+  margin-top: -40px;
 }
 
 .activity .cont .intro {
@@ -1204,6 +1209,10 @@ footer p {
   .entxt-design {
     width: 70%;
   }
+
+  .posm .poster .cont .poster-another img {
+    max-width: 38%;
+  }
   
 }
 
@@ -1220,12 +1229,28 @@ footer p {
     padding: 20px 12px;
   }
 
+  .menu ul li a:hover {
+    color: white;
+    background-color: #BC0909;
+  }
+
   header {
     height: 500px;
   }
 
   header .cont h2 {
     font-size: 36px;
+  }
+
+  .about {
+    padding-bottom: 0;
+  }
+
+  .about .cont > .title {
+    font-size: 24px;
+    width: 180px;
+    line-height: 49px;
+
   }
 
   .main-title h3 {
@@ -1468,6 +1493,14 @@ footer p {
   .brand .part .package .img-box img {
     width: 100%;
   }
+
+  .brand .part .banner {
+    margin-bottom: 24px;
+  }
+
+  .brand .part .intro {
+    margin-bottom: 24px;
+  }
   
   .uidesign {
     padding-top: 100px;
@@ -1501,6 +1534,22 @@ footer p {
     margin-top: 60px;
   }
 
+  .handbook .grayline {
+    margin-bottom: 50px;
+  }
+
+  .dm-cont .img-box {
+    margin-bottom: 60px;
+  }
+
+  .brand {
+    padding-top: 60px;
+  }
+
+  .brand .part.another .package {
+    padding-top: 60px;
+  }
+
 
 
   footer {
@@ -1515,10 +1564,84 @@ footer p {
   
 }
 
+@media screen and (max-width:662px) {
+
+
+  .activity .cont .caption {
+    margin-top: 0;
+  }
+
+  .uidesign .part {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+
+  .uidesign .part .txt {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .entxt-design {
+    margin-top: 0;
+  }
+
+  .dm-cont .img-box {
+    margin-bottom: 40px;
+  }
+
+  .brand .part .package {
+    padding-top: 40px;
+  }
+
+  .brand .part .package h6 {
+    margin-top: -80px;
+  }
+
+  .brand .part.another .package {
+    padding-top: 40px;
+  }
+
+  .brand .part .package .cont-1 {
+    margin-top: 60px;
+  }
+
+  
+}
+
 @media screen and (max-width:480px) {
   .menu ul li a {
     font-size: 12px;
   }
+
+  .posm .poster-entxt {
+    width: 70%;
+    top: 50px;
+  }
+
+  .posm .poster {
+    margin-top: -50px;
+  }
+
+  .brand .part .package h6 {
+    margin-top: -60px;
+  }
+
+  .handbook .part .intro .txt p {
+    margin-bottom: 32px;
+  }
+
+
+  .handbook .part .img-box {
+    margin-top: 0;
+  }
+
+  .handbook .grayline {
+    margin-top: 50px;
+  }
+
+
 
   footer {
     margin-bottom: 57px;
