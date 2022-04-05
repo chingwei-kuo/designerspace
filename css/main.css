@@ -1229,10 +1229,10 @@ footer p {
     padding: 20px 12px;
   }
 
-  /* .menu ul li a:hover {
+  .menu ul li a:hover {
     color: white;
     background-color: #BC0909;
-  } */
+  }
 
   header {
     height: 500px;
