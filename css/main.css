@@ -1230,7 +1230,7 @@ footer p {
   }
 
   .menu ul li a:hover {
-    color: white;
+    color: transparent;
     background-color: transparent;
   }
 
