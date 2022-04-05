@@ -186,9 +186,11 @@ html, body {
 }
 
 
-.menu ul li a:hover {
-  color: #BC0909;
-  background-color: white;
+@media screen and (min-width: 768px) {
+  .menu ul li a:hover {
+    color: #BC0909;
+    background-color: white;
+  }
 }
 
 .menu ul li a.active {
@@ -1229,10 +1231,10 @@ footer p {
     padding: 20px 12px;
   }
 
-  .menu ul li a:hover {
-    color: #BC0909;
+  /* .menu ul li a:hover {
+    color: initial;
     background-color: transparent;
-  }
+  } */
 
   header {
     height: 500px;
