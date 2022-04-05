@@ -154,6 +154,7 @@ html, body {
   color: #505050;
   overflow:scroll;
   -webkit-overflow-scrolling: touch;
+  min-width: 375px;
 }
 
 .menu {
