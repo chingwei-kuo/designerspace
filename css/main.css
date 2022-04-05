@@ -737,7 +737,6 @@ h6 {
 
 .activity .cont .master-vision {
   width: 100%;
-  margin-top: -40px;
 }
 
 .activity .cont .intro {
@@ -1211,7 +1210,7 @@ footer p {
   }
 
   .posm .poster .cont .poster-another img {
-    max-width: 38%;
+    width: 38%;
   }
   
 }
